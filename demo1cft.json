@@ -4,5 +4,14 @@
         "S3Bucket": {
             "Type": "AWS::S3::Bucket"
         }
+    },
+    ,
+    "Outputs": {
+        "BucketName": {
+            "Value": {
+                "Ref": "S3Bucket"
+            },
+            "Description": "Nome do bucket Amazon S3 para Exemplo de cft."
+        }
     }
 }
