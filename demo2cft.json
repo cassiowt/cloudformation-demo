@@ -651,6 +651,11 @@
                       {
                         "Ref": "DBPassword"
                       },
+                      "';\n",
+                      "GRANT ALL ON *.* to root@'vScopeServerIP'  IDENTIFIED BY' ", 
+                      {
+                        "Ref": "DBPassword"
+                      },
                       "';\n"
                     ]
                   ]
