@@ -46,7 +46,7 @@
     "InstanceType": {
       "Description": "WebServer EC2 instance type",
       "Type": "String",
-      "Default": "t2.small",
+      "Default": "t2.micro",
       "AllowedValues": [
         "t1.micro",
         "t2.nano",
@@ -743,6 +743,11 @@
                       {
                         "Ref": "DBRootPassword"
                       },
+                      "';\n",
+                      "GRANT ALL ON *.* to root@'vScopeServerIP'  IDENTIFIED BY' ", 
+                      {
+                        "Ref": "DBRootPassword"
+                      },
                       "'"
                     ]
                   ]
@@ -879,6 +884,12 @@
             "IpProtocol": "tcp",
             "FromPort": "80",
             "ToPort": "80",
+            "CidrIp": "0.0.0.0/0"
+          },
+          {
+            "IpProtocol": "tcp",
+            "FromPort": "3306",
+            "ToPort": "3306",
             "CidrIp": "0.0.0.0/0"
           },
           {
