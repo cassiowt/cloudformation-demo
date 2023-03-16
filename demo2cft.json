@@ -744,7 +744,7 @@
                         "Ref": "DBRootPassword"
                       },
                       "';\n",
-                      "GRANT ALL ON *.* to root@'vScopeServerIP'  IDENTIFIED BY' ", 
+                      "GRANT ALL ON *.* to root@'%'  IDENTIFIED BY '", 
                       {
                         "Ref": "DBRootPassword"
                       },
