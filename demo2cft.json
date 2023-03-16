@@ -743,11 +743,6 @@
                       {
                         "Ref": "DBRootPassword"
                       },
-                      "';\n",
-                      "GRANT ALL ON *.* to root@'%'  IDENTIFIED BY '", 
-                      {
-                        "Ref": "DBRootPassword"
-                      },
                       "'"
                     ]
                   ]
