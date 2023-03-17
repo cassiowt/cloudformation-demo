@@ -1,7 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "AWS CloudFormation Sample Template LAMP_Single_Instance: Create a LAMP stack using a single EC2 instance and a local MySQL database for storage. This template demonstrates using the AWS CloudFormation bootstrap scripts to install the packages and files necessary to deploy the Apache web server, PHP and MySQL at instance launch time. **WARNING** This template creates an Amazon EC2 instance. You will be billed for the AWS resources used if you create a stack from this template.",
-  "Parameters": {
+  "Description": "Modelo de amostra do AWS CloudFormation LAMP_Single_Instance: crie uma pilha LAMP usando uma única instância do EC2 e um banco de dados MySQL local para armazenamento. Este modelo demonstra como usar os scripts de bootstrap do AWS CloudFormation para instalar os pacotes e arquivos necessários para implantar o servidor web Apache, PHP e MySQL no momento da inicialização da instância. **AVISO** Este modelo cria uma instância do Amazon EC2. Você será cobrado pelos recursos da AWS usados ​​se criar uma pilha a partir deste modelo.", "Parameters": {
     "KeyName": {
       "Description": "Name of an existing EC2 KeyPair to enable SSH access to the instance",
       "Type": "AWS::EC2::KeyPair::KeyName",
