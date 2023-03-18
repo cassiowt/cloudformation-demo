@@ -643,7 +643,7 @@
                 }
               },
               "sources": {
-                "/var/www/html": "http://wordpress.org/latest.tar.gz"
+                "/var/www/html": "https://wordpress.org/wordpress-6.1.1.tar.gz"
               },
               "files": {
                 "/tmp/setup.mysql": {
