@@ -8,7 +8,7 @@
     "Outputs": {
         "BucketName": {
             "Value": {
-                "Ref": "JenkinsCFT_S3Bucket_Cassio"
+                "Ref": "S3BucketCassio"
             },
             "Description": "Nome do bucket Amazon S3 para Exemplo de cft."
         }
